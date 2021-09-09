@@ -4,7 +4,9 @@ const app = Vue.createApp({
             product: 'Socks',
             description: 'soft',
             image:'./assets/images/socks_green.jpg',
-            url:'https://www.vuemastery.com/courses/intro-to-vue-3/attribute-binding-vue3'
+            url:'https://www.vuemastery.com/courses/intro-to-vue-3/attribute-binding-vue3',
+            inStock:true,
+            inventory:0
         }
     }
 
